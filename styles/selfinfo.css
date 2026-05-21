@@ -50,8 +50,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    min-width: 390px;
+    width:90%;                    
+    max-width: 500px;        
+    min-width: 280px;
     left: 50%;
     transform: translateX(-50%);
     justify-content: center;
