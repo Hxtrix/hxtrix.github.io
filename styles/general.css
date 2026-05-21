@@ -4,11 +4,7 @@
       p {
         font-family: Arial;
       }
-      body {
-      background-image: url('/images/background.svg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
+      body {
       padding-top: 70px;
       padding-bottom: 50px;
       background-color: rgb(13, 4, 36);
