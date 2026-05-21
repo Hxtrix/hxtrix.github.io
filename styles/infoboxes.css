@@ -16,15 +16,13 @@
       
       display: flex;
       text-decoration: none;
-      background-color: #3d029b9f;
-      backdrop-filter: blur(6px);
+      background-color: #3d029b9f;
       box-shadow: 0 0 50px 10px #1b0064;
       border-radius: 15px;
       transition: all 0.25s ease;
     }
     .selfinfobox:hover,.projectinfobox:hover,.thiswebinfo:hover
     {
-      backdrop-filter: blur(10px);
       box-shadow: 0 0 50px 10px #36008b;
     }
     .selfinfobox:active,.projectinfobox:active,.thiswebinfo:active
