@@ -1,2 +1,2 @@
 # hxtrix.github.io
-Hxtrix is @itshacktros portfolio Website
+Hxtrix is @itshacktro's portfolio Website
