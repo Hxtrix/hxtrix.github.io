@@ -1,0 +1,120 @@
+    .infoboxes
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: auto;
+        column-gap: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+        row-gap: 50px;
+        justify-content: center;
+        
+    }    
+    .selfinfobox,.projectinfobox,.thiswebinfo
+    {
+      
+      display: flex;
+      text-decoration: none;
+      background-color: #3a00979f;
+      backdrop-filter: blur(3px);
+      box-shadow: 0 0 50px 10px #1b0064;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgba(37, 37, 37, 0.281);
+      border-radius: 15px;
+      transition: all 0.25s ease;
+    }
+    .selfinfobox:hover,.projectinfobox:hover,.thiswebinfo:hover
+    {
+      backdrop-filter: blur(5px);
+      box-shadow: 0 0 50px 10px #3d009e;
+    }
+    .selfinfobox:active,.projectinfobox:active,.thiswebinfo:active
+    {
+      transition: all 0.1s;
+      box-shadow: 0 0 50px 10px #24005e;
+      border-color: #24005e;
+    }
+    .selfinfobox
+    {   height: 150px;
+        flex: 1 1 300px;
+        max-width: 300px;
+    }
+    .projectinfobox
+    {
+        height: 150px;
+        max-width: 300px;
+        flex: 1 1 300px;
+        
+    }
+    .thiswebinfo
+    {
+        height: 150px;
+        max-width: 300px;
+        flex: 1 1 300px;
+        
+    } 
+    .selfinfo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2px;
+      }
+      .pfp {
+        flex-shrink: 0;
+      }
+      .pfp-image
+      {
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 50%;
+        width: 10vw;
+        max-width: 80px;
+        min-width: 50px;
+        height: auto;
+        display: block;
+      }
+      .info
+      {
+        flex: 1;
+      }
+      .infotext
+      {
+         font-family: Arial, Helvetica, sans-serif;
+         color: white;
+         margin-top: 20px;
+         line-height: 25px; 
+      }
+
+      .projectinfobox
+      {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2px; 
+      }
+      .projectsicon-image
+      {
+        margin-left: 5px;
+        width: 10vw;
+        max-width: 80px;
+        min-width: 50px;
+        height: auto;
+      }
+      .infotextprojectbox
+      {
+         font-family: Arial, Helvetica, sans-serif;
+         color: rgb(255, 255, 255);
+         margin-top: 20px;
+         line-height: 25px; 
+         font-size: larger;
+         text-align: center;
+         margin-left: 10px ;
+      }
+      .thiswebinfo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2px;
+      }
