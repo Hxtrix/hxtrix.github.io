@@ -86,3 +86,18 @@
     line-height: 25px;
     color: rgb(142, 72, 255);
 }
+.socialbutton
+{
+    background-color: #00000000;
+    border: none;
+    margin-right: 10px;
+}
+.socialicon
+{
+    height: 50px;
+}
+.socialbutton:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
