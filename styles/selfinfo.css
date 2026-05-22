@@ -71,10 +71,6 @@
 .selfheadline1
 {
     color: rgb(142, 72, 255);
-    text-shadow:
-        0 0 20px rgba(41, 0, 107, 0.8),
-        0 0 40px rgba(41, 0, 107, 0.6),
-        0 0 80px rgba(41, 0, 107, 0.5);
 }
 .pfp
 {   
@@ -89,8 +85,4 @@
 {
     line-height: 25px;
     color: rgb(142, 72, 255);
-    text-shadow:
-        0 0 20px rgba(41, 0, 107, 0.8),
-        0 0 40px rgba(41, 0, 107, 0.6),
-        0 0 80px rgba(41, 0, 107, 0.4);
 }
