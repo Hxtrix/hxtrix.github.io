@@ -50,15 +50,15 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width:90%;                    
-    max-width: 500px;        
-    min-width: 280px;
+    width: 40%;
+    min-width: 390px;
     left: 50%;
     transform: translateX(-50%);
     justify-content: center;
-    background-color: #1b0064;
+    background-color: #1f0075d2;
     box-shadow: 0 0 50px 10px #1b0064;
     column-gap: 20px;
+    backdrop-filter: blur(4px);
 }
 
 .selfdiscriptionpart1

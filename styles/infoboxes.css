@@ -16,13 +16,17 @@
       
       display: flex;
       text-decoration: none;
-      background-color: #3d029b9f;
+      background-color: #3d029b9f;
+      backdrop-filter: blur(6px);
+      transform: translateZ(0);
+      backface-visibility: hidden;
       box-shadow: 0 0 50px 10px #1b0064;
       border-radius: 15px;
       transition: all 0.25s ease;
     }
     .selfinfobox:hover,.projectinfobox:hover,.thiswebinfo:hover
     {
+      backdrop-filter: blur(10px);
       box-shadow: 0 0 50px 10px #36008b;
     }
     .selfinfobox:active,.projectinfobox:active,.thiswebinfo:active
@@ -31,6 +35,21 @@
       box-shadow: 0 0 50px 10px #24005e;
       border-color: #24005e;
     }
+    .titlebar:hover,
+    .selfinfobox:hover, 
+    .projectinfobox:hover, 
+    .thiswebinfo:hover {
+      backdrop-filter: blur(10px) !important;
+    }
+    @media (max-width: 768px) and (hover: none) {
+    .titlebar,
+    .selfinfobox, 
+    .projectinfobox, 
+    .thiswebinfo {
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+    }
+  }
     .selfinfobox
     {   height: 150px;
         flex: 1 1 300px;
