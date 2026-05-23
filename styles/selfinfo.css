@@ -61,6 +61,7 @@
     column-gap: 20px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    will-change: transform;
 }
 @media (max-width: 768px) and (hover: none) {
     .selfdiscription {
