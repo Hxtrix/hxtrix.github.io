@@ -53,7 +53,6 @@
     width: 40%;
     min-width: 300px;
     max-width: 600px;
-
     left: 50%;
     transform: translateX(-50%);
     justify-content: center;
@@ -61,7 +60,13 @@
     box-shadow: 0 0 50px 10px #1b0064;
     column-gap: 20px;
     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
+@media (max-width: 768px) and (hover: none) {
+    .selfdiscription {
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+    }
 
 .selfdiscriptionpart1
 {
