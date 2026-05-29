@@ -1,0 +1,17 @@
+.websiteicon
+{
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.websiteiconh
+{
+    font-weight: bold;
+    font-size: 40px;
+    color: transparent;
+    background: linear-gradient(90deg, #001aff, #6200ff, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding: 6px 15px;
+    
+}

@@ -21,7 +21,9 @@
         0 0 40px rgba(41, 0, 107, 0.6),
         0 0 80px rgba(41, 0, 107, 0.4);
 }
-
+.selfdiscriptionleft{
+    margin-right: 10px;
+}
 .headbottomtext
 {
     margin-top: 0px;
@@ -72,6 +74,7 @@
 
 .selfheadline1
 {
+    font-family: Arial;
     color: rgb(142, 72, 255);
 }
 .pfp

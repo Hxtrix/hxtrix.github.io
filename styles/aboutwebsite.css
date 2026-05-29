@@ -1,0 +1,107 @@
+.pageheadtextbox
+{       position: relative;
+        display: flex;
+        width: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+        margin-bottom: 20px;
+}
+.headtext{
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;                    /* Important for gradient */
+    color: transparent;
+    background: linear-gradient(90deg, #495cff, #9B5CFF, #E05CFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow:
+        0 0 20px rgba(41, 0, 107, 0.8),
+        0 0 40px rgba(41, 0, 107, 0.6),
+        0 0 80px rgba(41, 0, 107, 0.4);
+}
+
+.headbottomtext
+{
+    margin-top: 0px;
+    padding-left: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 180px;     /* Important for gradient */
+    color: transparent;
+    background: linear-gradient(90deg, #495cff, #9B5CFF, #E05CFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow:
+        0 0 20px rgba(41, 0, 107, 0.8),
+        0 0 40px rgba(41, 0, 107, 0.6),
+        0 0 80px rgba(41, 0, 107, 0.4);  
+}
+.pageheadtextcontainer
+{
+        display: flex;
+        flex-direction: column;
+}
+
+.selfdiscription
+{
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-width: 300px;
+    max-width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    background-color: #1f0075d2;
+    box-shadow: 0 0 50px 10px #1b0064;
+    column-gap: 20px;
+    backdrop-filter: blur(4px);
+}
+
+.selfdiscriptionpart1
+{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.selfheadline1
+{
+    font-family: Arial;
+    color: rgb(142, 72, 255);
+}
+.pfp
+{   
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.selfdiscriptionpart2
+{
+    padding-left: 10px;
+}
+.infotextself
+{
+    
+    line-height: 25px;
+    color: rgb(142, 72, 255);
+}
+.socialbutton
+{
+    background-color: #00000000;
+    border: none;
+    margin-right: 10px;
+}
+.socialicon
+{
+    height: 50px;
+}
+.socialbutton:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
