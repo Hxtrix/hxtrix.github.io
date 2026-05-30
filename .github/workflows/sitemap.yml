@@ -1,0 +1,23 @@
+name: Generate Sitemap
+
+on:
+  push:
+    branches: [ main, master ]   # Change to your default branch if different
+
+jobs:
+  generate-sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Important: Needed to get file dates
+
+      - name: Generate sitemap.xml
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://hxtrix.github.io
+          include: "**.html, **.htm, **.pdf"
+          exclude: "404.html, **/README.md"
+          # Optional: You can add more settings if needed
