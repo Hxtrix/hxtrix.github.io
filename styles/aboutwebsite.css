@@ -44,7 +44,7 @@
         flex-direction: column;
 }
 
-.selfdiscription
+.webdiscription
 {
     border-radius: 20px;
     position: relative;
@@ -62,7 +62,7 @@
     backdrop-filter: blur(4px);
 }
 
-.selfdiscriptionpart1
+.webdiscriptionpart1
 {
     padding-left: 10px;
     display: flex;
@@ -70,7 +70,7 @@
     align-items: center;
 }
 
-.selfheadline1
+.webheadline1
 {
     font-family: Arial;
     color: rgb(142, 72, 255);
@@ -80,28 +80,13 @@
     margin-top: 10px;
     border-radius: 50%;
 }
-.selfdiscriptionpart2
+.webdiscriptionpart2
 {
     padding-left: 10px;
 }
-.infotextself
+.infotextweb
 {
     
     line-height: 25px;
     color: rgb(142, 72, 255);
-}
-.socialbutton
-{
-    background-color: #00000000;
-    border: none;
-    margin-right: 10px;
-}
-.socialicon
-{
-    height: 50px;
-}
-.socialbutton:hover
-{
-    opacity: 0.5;
-    cursor: pointer;
 }
