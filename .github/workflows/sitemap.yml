@@ -1,0 +1,31 @@
+name: Generate Sitemap
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  generate-sitemap:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # Important: Gives permission to commit
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate sitemap.xml
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://hxtrix.github.io
+          include: "**/*.html, **/*.htm"
+          exclude: "404.html, README.md, LICENSE, .github"
+
+      - name: Commit and push sitemap.xml
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update sitemap.xml"
+          file_pattern: sitemap.xml
