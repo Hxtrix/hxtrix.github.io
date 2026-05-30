@@ -2,7 +2,7 @@ name: Generate Sitemap
 
 on:
   push:
-    branches: [ main, master ]   # Change to your default branch if different
+    branches: [ main, master ]
 
 jobs:
   generate-sitemap:
@@ -12,12 +12,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # Important: Needed to get file dates
+          fetch-depth: 0
 
       - name: Generate sitemap.xml
         uses: cicirello/generate-sitemap@v1
         with:
           base-url-path: https://hxtrix.github.io
-          include: "**.html, **.htm, **.pdf"
-          exclude: "404.html, **/README.md"
-          # Optional: You can add more settings if needed
+          include: "**/*.html, **/*.htm"
+          exclude: "404.html, README.md, LICENSE"
+
+      - name: Commit and push sitemap.xml
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          git commit -m "Update sitemap.xml" || echo "No changes to commit"
+          git push
