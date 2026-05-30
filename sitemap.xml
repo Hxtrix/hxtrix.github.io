@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://hxtrix.github.io/</loc>
-<lastmod>2026-05-29T22:29:07+06:00</lastmod>
-</url>
-<url>
-<loc>https://hxtrix.github.io/googlea4ed75754e67be2a.html</loc>
-<lastmod>2026-05-30T11:31:06+06:00</lastmod>
-</url>
-<url>
-<loc>https://hxtrix.github.io/aboutcreator/</loc>
-<lastmod>2026-05-29T22:29:07+06:00</lastmod>
-</url>
-<url>
-<loc>https://hxtrix.github.io/aboutwebsite/</loc>
-<lastmod>2026-05-29T22:29:07+06:00</lastmod>
-</url>
-<url>
-<loc>https://hxtrix.github.io/projects/</loc>
-<lastmod>2026-05-29T22:29:07+06:00</lastmod>
-</url>
+
+  <url>
+    <loc>https://hxtrix.github.io/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://hxtrix.github.io/aboutcreator/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://hxtrix.github.io/projects/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://hxtrix.github.io/aboutwebsite/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
