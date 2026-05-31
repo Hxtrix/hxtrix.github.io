@@ -64,7 +64,7 @@
 
 .webdiscriptionpart1
 {
-    padding-left: 10px;
+    padding-left: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,4 +89,16 @@
     
     line-height: 25px;
     color: rgb(142, 72, 255);
+}
+.webdiscriptionright2
+{
+    margin-left: 20px;
+}
+.moreinfohlink
+{
+    color: rgb(95, 0, 247);
+}
+.moreinfohlink:active
+{
+    color: rgb(147, 82, 250);
 }
