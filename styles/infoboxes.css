@@ -1,7 +1,11 @@
     .infoboxes
-    {
+    {   
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
         display: flex;
         flex-wrap: wrap;
+        max-width: 1000px;
         flex-direction: row;
         height: auto;
         column-gap: 100px;
