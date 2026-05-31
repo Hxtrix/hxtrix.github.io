@@ -1,5 +1,11 @@
 # hxtrix.github.io
 Hxtrix is @itshacktro's portfolio Website
-<img width="518" height="313" alt="image" src="https://github.com/user-attachments/assets/5d0779ba-76a8-417d-86a2-39c1d1181459" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7f223bbb-9d1a-4298-99c2-e797fb6b0534" />
+
+
+
+
+
+
 # Check out the Website
 https://hxtrix.github.io/
