@@ -8,7 +8,7 @@
     background-color: rgba(74, 0, 158, 0.575);
     border: none;
     border-radius: 50px;
-    width: 50%;
+    width: 80%;
     padding: 40px;
     backdrop-filter: blur(8px);
     margin-bottom: 50px;
@@ -76,7 +76,7 @@
 @media (max-width: 1068px) {
     .projectbox
     {  
-        width: 70%;
+        width: 60%;
         min-width: 300px;
         backdrop-filter: blur(2px);
     }
