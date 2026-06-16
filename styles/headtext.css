@@ -7,7 +7,7 @@
         justify-content: center;
 }
 .headtext{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     text-align: center;
     font-size: 50px;
     font-weight: 700;                    /* Important for gradient */
